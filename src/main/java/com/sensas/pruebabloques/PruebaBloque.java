@@ -46,7 +46,7 @@ public class PruebaBloque {
         return Boolean.FALSE;
     }
 
-    public static int getBetterOption(char[] word){
+    private static int getBetterOption(char[] word){
         int a=0;
         for(int i=0;i<subSecuence.size();i++){
             char[] cube = cubes[subSecuence.get(i)];
